@@ -176,6 +176,7 @@
 
         <!-- build the PECL package's as shared library -->
         <antcall target="pecl-build-pthreads"/>
+        <!-- 
         <antcall target="pecl-build-memcached"/>
         <antcall target="pecl-build-redis"/>
         <antcall target="pecl-build-appserver"/>
@@ -183,6 +184,7 @@
         <antcall target="pecl-build-ev"/>
         <antcall target="pecl-build-event"/>
         <antcall target="pecl-build-xdebug"/>
+        -->
         
         <!-- copy runtime files from src directory -->
         <antcall target="copy-buildfiles"/>

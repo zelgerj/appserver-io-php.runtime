@@ -23,6 +23,7 @@
             <arg value="pkg-config"/>
             <arg value="libbz2-dev"/>
             <arg value="libjpeg62-turbo-dev"/>
+            <arg value="libsystemd-dev"/>
             <arg value="libpng-dev"/>
             <arg value="libfreetype6-dev"/>
             <arg value="libmcrypt-dev"/>
